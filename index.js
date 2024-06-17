@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const port = 8080;
+const port = 8080
 
 const cityRouter = require("./src/controllers/city.controller");
 const busRouter = require("./src/controllers/bus.controller");
